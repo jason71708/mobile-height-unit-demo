@@ -21,7 +21,16 @@ p {
   border-radius: 60px;
   text-align: center;
   padding: 0 5%;
-  overflow: auto;
+}
+
+.box::-webkit-scrollbar {
+  width: 7px;
+}
+
+.box::-webkit-scrollbar-thumb {
+  background: #f0dc22;
+  background: #f0dc22aa;
+  border-radius: 10px;
 }
 
 .code-box {
@@ -29,5 +38,9 @@ p {
 }
 
 pre {
+  overflow: auto;
+}
+
+.overflow-auto {
   overflow: auto;
 }
